@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--INICIO CSS ICONES MAYKONSILVEIRA.COM.BR-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--INICIO CSS SLIDE MAYKONSILVEIRA.COM.BR-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--INICIO JS DO SLIDE DO SITE MAYKONSILVEIRA.COM.BR-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>Papa Pizza</title>
+</head>
+
+<body>
+    <header class="topo-site">
+        <a href="index.html" class="logo">
+            <i class="fas fa-pizza-slice"></i>
+            Papa Pizza
+        </a>
+
+        <nav class="menu-site">
+            <a href="index.html">Início</a>
+            <a href="empresa.html">Empresa</a>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="pedido.html">Monte seu Pedido</a>
+            <a href="blog.html">Blog</a>
+            <a href="contato.html">Fale Conosco</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart" class="fas fa-shopping-cart"></div>
+            <div id="login" class="fas fa-user"></div>
+            <div id="menu" class="fas fa-bars"></div>
+        </div>
+
+        <div class="carrinho">
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="assets/img/carrinho/carrinho-1.png" alt="">
+                <div class="content">
+                    <h3>Pizza Frango</h3>
+                    <span class="quantidade"> 1</span>
+                    <span class="multiplica"> x</span>
+                    <span class="valor"> R$ 77,77</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="assets/img/carrinho/carrinho-2.png" alt="">
+                <div class="content">
+                    <h3>Pizza Frango</h3>
+                    <span class="quantidade"> 1</span>
+                    <span class="multiplica"> x</span>
+                    <span class="valor"> R$ 77,77</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="assets/img/carrinho/carrinho-3.png" alt="">
+                <div class="content">
+                    <h3>Pizza Frango</h3>
+                    <span class="quantidade"> 1</span>
+                    <span class="multiplica"> x</span>
+                    <span class="valor"> R$ 77,77</span>
+                </div>
+            </div>
+
+            <h3 class="total">Total: R$ 777,77</h3>
+            <a href="" class="btn">Ir para o carrinho</a>
+
+        </div>
+
+        <form action="" method="post" class="login-form">
+            <h3>Acesse sua conta</h3>
+            <input type="email" nome="email" class="box" placeholder="Seu E-mail">
+            <input type="password" nome="senha" class="box" placeholder="Sua senha">
+            <div class="lembrar-senha">
+                <input type="checkbox" name="lembrar" id="relembrar">
+                <label for="relembrar">Me lembrar da senha</label>
+            </div>
+            <button type="submit" name="sendLogin" class="btn"> Acessar</button>
+        </form>
+
+    </header>
+
+    <div class="topo-pagina">
+        <h1>Cardápio</h1>
+        <p><a href="index.html" title="Sobre nós">Início>></a> Cardápio</p>
+    </div>
+
+    <section class="menu">
+        <div class="slider">
+            <h3 class="titulo">Pizza</h3>
+            <div class="box-container">
+
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Pizza de Costela</h3>
+                        <p>Molho, muçarela, costela desada, ceb0la, catupiry, tomate seco, champignon, azeitonas, molho BBQ e orégano</p>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Pizza de Batata Frita</h3>
+                        <p>Molho, muçarela, batata frita, cheddar ou catupiry, bacon.</p>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Pizza Portuguesa</h3>
+                        <p>Molho, presunto, cebola, palmito, muçarela, tomate, ervilha, milho, ovo, azeitonas e orégano.</p>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Pizza 5 Queijos</h3>
+                        <p>Molho, muçarela, provolone, catupiry, cheddar, parmesão, azeitonas e orégano</p>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Pizza de Frango</h3>
+                        <p>Molho, frango, catupiry, muçarela, bacon, milho, azeitonas e orégano</p>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Pizza de Calabresa</h3>
+                        <p>Molho, muçarela, calabresa, bacon, cebola, azeitonas e orégano</p>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Pizza de Mussarela</h3>
+                        <p>Molho, muçarela, tomate, milho e azeitonas</p>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Pizza de Lombinho</h3>
+                        <p>Molho, muçarela, lombinho, cebola, bacon, azeitonas e orégano</p>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+
+            </div>
+            <h3 class="titulo">Lanches</h3>
+            <div class="box-container">
+
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>X-Tudo</h3>
+                        <p>pão, hamburguer 90g, presunto,<br> queijo muçarela, bacon, ovo, maionese,<br> catupiry, salada.</p>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>X-Frango</h3>
+                        <p>pão frango, catupiry, queijo muçarela,<br> bacon, ovo, salada.</p>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>X-Lombo</h3>
+                        <p>pão lombo, catupiry, queijo muçarela,<br> bacon, ovo, salada.</p>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Contra-Filé</h3>
+                        <p>pão, contra lé, catupiry, queijo muçarela,<br> bacon, ovo, salada e maionese.</p>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>X-Salada</h3>
+                        <p>pão, salada, hamburguer 90g, presunto,<br> queijo muçarela, bacon, ovo, maionese, salada</p>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Misto Quente</h3>
+                        <p>pão francês, tomate, queijo, presunto, bacon, ovo.</p>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Moda da Casa</h3>
+                        <p>pão, hamburguer bovino 180g, molho, queijo muçarela, bacon,<br> catupiry ou cheddar, presunto, ovo, salada</p>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>X-Bacon</h3>
+                        <p>pão, hamburguer 90g, presunto, queijo muçarela, bacon, ovo, maionese, salada.</p>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+
+            </div>
+            <h3 class="titulo">Bebidas</h3>
+            <div class="box-container">
+
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Coca Cola</h3>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Água com gás</h3>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Guaraná</h3>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Sprite</h3>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Cerveja</h3>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Água sem gás</h3>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Pepsi</h3>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+                <div class="box" data-name="pizza">
+                    <div class="info">
+                        <h3>Fanta</h3>
+                    </div>
+                    <div class="valor">R$ 77</div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="menu-modal-container">
+        <div id="fechar" class="fas fa-times"></div>
+        <div class="menu-modal" data-target="pizza">
+            <h3>Pizza</h3>
+            <div class="estrelinhas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Pizza da EAD</p>
+            <div class="valor">R$ 77,77</div>
+            <a href="" class="btn">Adicionar ao carrinho</a>
+        </div>
+    </section>
+
+    <section class="rodape">
+        <div class="box-container">
+            <div class="box">
+                <h3>Papa-Pizza</h3>
+                <p>Programa desenvolvido para o TCC de ESOFT Unicesumar</p>
+                <div class="rede-sociais">
+                    <a href="" class="fab fa-facebook-f"></a>
+                    <a href="" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-twitter"></a>
+                    <a href="" class="fab fa-whatsapp"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Faça seu pedido</h3>
+                <div class="contato">
+                    <i class="fab fa-whatsapp"> (41) 77777-7777</i>
+                    <br>
+                    <i class="fa fa-phone"> (41) 7777-7777</i>
+                    <a href="mailto:" title="" class="link">Email@Hotmail.com</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Localização</h3>
+                <p>Rua Genêsis, Nº 77</p>
+                <p>Bairro Reinado De Jesus</p>
+                <p>Nova Jerusalém</p>
+            </div>
+
+        </div>
+        <div class="direitos">
+            Criado Por <span>Pedro Henrique de Souza</span> | Unicesumar
+        </div>
+        <p>Todos Os Direitos Reservados!</p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
