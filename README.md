@@ -1,1 +1,3 @@
-# titulo
+# Trabalho de Conclusão de Curso
+## Este arquivo foi desenvolvido para a realização da atividade disposta na matéria de Trabalho de Conclusão de Curso II.
+O seguinte repositório contém o arquivo front end completo de site para uma pizzaria/lanchonete, utilizando de tecnologias como HTML, CSS e JavaScript e sendo também totalmente responsivo, podendo ser utilizado em qualquer dispositivo e com fácil manutenibilidade, podendo ser feitas alterações pertinentes para que se adeque ao estilo do estabelecimento. Com um layout agradável e utilizando de cores vivas, juntamente com imagens que fazem os potenciais clientes sentirem vontade de apreciar os itens do cardápio, o site também possui uma área para contato e localização, que facilitando o modo como os clientes podem efetuar seus pedidos, seja delivery ou retirada no local.
